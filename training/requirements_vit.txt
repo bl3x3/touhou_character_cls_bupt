@@ -1,0 +1,6 @@
+datasets==3.4.1
+evaluate==0.4.3
+# numpy==2.2.4
+# torch==2.5.1
+# torchvision==0.20.1
+transformers==4.49.0

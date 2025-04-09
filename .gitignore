@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Flask instance folder
+instance/
+
+# Environment variables
+.env
+*.env.*
+
+# Generated/Output files
+results/
+saved_images/
+# Tailwind 输出文件 
+static/dist/
+
+
+# IDE / OS files
+.idea/
+.vscode/
+*.DS_Store

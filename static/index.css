@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* 让视频框固定一个 4:3 的横版比例。 
+       可以通过父容器的宽度来计算高度，使用 padding-bottom 技术保持比例。
+    */
+.video-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background: #000;
+}
+.video-container img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/* 新增：地图文字样式 */
+.map-text {
+	transition: all 0.3s ease;
+}
+.map-text.highlight {
+	font-weight: bold;
+	text-shadow: 0 0 8px currentColor;
+}
+/* 新增：画廊预览样式 */
+.gallery-preview {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 50;
+}
+.gallery-preview img {
+	max-width: 90vw;
+	max-height: 90vh;
+	object-fit: contain;
+}
+/* 添加字体设置 */
+@font-face {
+	font-family: "MS Gothic";
+	src: local("MS Gothic");
+}
+
+.map-text {
+	/* font-family: 'MS Gothic', 'MS PGothic', 'ＭＳ ゴシック', monospace; */
+	font-family: "MS Mincho", monospace;
+	font-size: 14px;
+	line-height: 1;
+	width: 1em;
+	height: 1em;
+	text-align: center;
+}
+
+/* 确保半角字符宽度为全角的一半 */
+.map-text.half-width {
+	width: 0.5em;
+}
+/* 隐藏滚动条但保留滚动功能 */
+.scrollbar-hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar {
+	display: none; /* Chrome, Safari and Opera */
+}
+
+/* 平滑滚动 */
+.scroll-smooth {
+	scroll-behavior: smooth;
+}
+
+/* 画廊滚动样式 */
+.overflow-x-auto {
+	-webkit-overflow-scrolling: touch;
+}
+
+/* 让画廊容器高度固定，避免内容改变时页面跳动 */
+#gallery {
+	min-height: 12rem; /* 与图片高度h-40对应 */
+}
+
+/* 优化预览模式的过渡效果 */
+.gallery-preview {
+	transition: opacity 0.2s ease;
+}

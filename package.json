@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.1"
+  },
+  "name": "touhou_classification",
+  "version": "1.0.0",
+  "description": "在百校天则摊位上的人物分类项目\r 包括：数据收集和清洗、模型训练、模型部署、web界面展示\r 1. 数据收集和清洗\r    目前已有HuggingFace数据集，包含144个东方角色图片数据集（含旧作），可以下载使用。\r    存在的问题有：\r    1. 角色缺失：有大约14个角色缺失数据集，其中包括全部兽王园角色\r    2. 角色多余：存在若干非东方角色，包括同人作品角色和二设等\r    3. 样本数偏差：有大约40个角色图片数低于200，约50个角色图片数低于400，最大图片数为500（标准规模）\r    4. r率偏差：部分角色r图率偏高，随机抽样检测结果显示，大致与角色本身r率有关（如润美、永琳、文等），与数据集规模关系不大",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./static/src/input.css -o ./static/dist/output.css --watch",
+    "dev": "npm run build:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

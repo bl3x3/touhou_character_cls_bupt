@@ -1,0 +1,842 @@
+{
+    "aki_minoriko": {
+        "nsfw": 162,
+        "safe": 338,
+        "name": "秋穰子",
+        "ratio": 0.324
+    },
+    "matara_okina": {
+        "nsfw": 48,
+        "safe": 452,
+        "name": "摩多罗隐岐奈",
+        "ratio": 0.096
+    },
+    "niwatari_kutaka": {
+        "nsfw": 91,
+        "safe": 409,
+        "name": "庭渡久侘歌",
+        "ratio": 0.182
+    },
+    "nazrin": {
+        "nsfw": 95,
+        "safe": 405,
+        "name": "娜兹玲",
+        "ratio": 0.19
+    },
+    "nagae_iku": {
+        "nsfw": 117,
+        "safe": 383,
+        "name": "永江衣玖",
+        "ratio": 0.234
+    },
+    "murasa_minamitsu": {
+        "nsfw": 70,
+        "safe": 430,
+        "name": "村纱水蜜",
+        "ratio": 0.14
+    },
+    "motoori_kosuzu": {
+        "nsfw": 68,
+        "safe": 432,
+        "name": "本居小铃",
+        "ratio": 0.136
+    },
+    "moriya_suwako": {
+        "nsfw": 22,
+        "safe": 478,
+        "name": "洩矢诹访子",
+        "ratio": 0.044
+    },
+    "mononobe_no_futo": {
+        "nsfw": 49,
+        "safe": 451,
+        "name": "物部布都",
+        "ratio": 0.098
+    },
+    "miyako_yoshika": {
+        "nsfw": 76,
+        "safe": 424,
+        "name": "宫古芳香",
+        "ratio": 0.152
+    },
+    "mima": {
+        "nsfw": 97,
+        "safe": 403,
+        "name": "魅魔",
+        "ratio": 0.194
+    },
+    "medicine_melancholy": {
+        "nsfw": 59,
+        "safe": 441,
+        "name": "梅蒂欣·梅兰可莉",
+        "ratio": 0.118
+    },
+    "luna_child": {
+        "nsfw": 198,
+        "safe": 302,
+        "name": "露娜切露德",
+        "ratio": 0.396
+    },
+    "patchouli_knowledge": {
+        "nsfw": 23,
+        "safe": 477,
+        "name": "帕秋莉·诺蕾姬",
+        "ratio": 0.046
+    },
+    "aki_shizuha": {
+        "nsfw": 118,
+        "safe": 382,
+        "name": "秋静叶",
+        "ratio": 0.236
+    },
+    "lily_white": {
+        "nsfw": 64,
+        "safe": 436,
+        "name": "莉莉霍瓦特",
+        "ratio": 0.128
+    },
+    "letty_whiterock": {
+        "nsfw": 68,
+        "safe": 432,
+        "name": "蕾蒂·霍瓦特洛克",
+        "ratio": 0.136
+    },
+    "kumoi_ichirin": {
+        "nsfw": 87,
+        "safe": 413,
+        "name": "云居一轮",
+        "ratio": 0.174
+    },
+    "kudamaki_tsukasa": {
+        "nsfw": 148,
+        "safe": 352,
+        "name": "菅牧典",
+        "ratio": 0.296
+    },
+    "konpaku_youmu": {
+        "nsfw": 11,
+        "safe": 489,
+        "name": "魂魄妖梦",
+        "ratio": 0.022
+    },
+    "komeiji_satori": {
+        "nsfw": 43,
+        "safe": 457,
+        "name": "古明地觉",
+        "ratio": 0.086
+    },
+    "komeiji_koishi": {
+        "nsfw": 48,
+        "safe": 452,
+        "name": "古明地恋",
+        "ratio": 0.096
+    },
+    "komano_aunn": {
+        "nsfw": 96,
+        "safe": 404,
+        "name": "高丽野阿吽",
+        "ratio": 0.192
+    },
+    "kochiya_sanae": {
+        "nsfw": 76,
+        "safe": 424,
+        "name": "东风谷早苗",
+        "ratio": 0.152
+    },
+    "onozuka_komachi": {
+        "nsfw": 91,
+        "safe": 409,
+        "name": "小野塚小町",
+        "ratio": 0.182
+    },
+    "reisen_udongein_inaba": {
+        "nsfw": 97,
+        "safe": 403,
+        "name": "铃仙·优昙华院·因幡",
+        "ratio": 0.194
+    },
+    "kisume": {
+        "nsfw": 150,
+        "safe": 350,
+        "name": "琪斯美",
+        "ratio": 0.3
+    },
+    "tatara_kogasa": {
+        "nsfw": 92,
+        "safe": 408,
+        "name": "多多良小伞",
+        "ratio": 0.184
+    },
+    "yorigami_shion": {
+        "nsfw": 86,
+        "safe": 414,
+        "name": "依神紫苑",
+        "ratio": 0.172
+    },
+    "yasaka_kanako": {
+        "nsfw": 184,
+        "safe": 316,
+        "name": "八坂神奈子",
+        "ratio": 0.368
+    },
+    "yakumo_yukari": {
+        "nsfw": 26,
+        "safe": 474,
+        "name": "八云紫",
+        "ratio": 0.052
+    },
+    "yakumo_ran": {
+        "nsfw": 126,
+        "safe": 374,
+        "name": "八云蓝",
+        "ratio": 0.252
+    },
+    "yagokoro_eirin": {
+        "nsfw": 162,
+        "safe": 338,
+        "name": "八意永琳",
+        "ratio": 0.324
+    },
+    "wriggle_nightbug": {
+        "nsfw": 190,
+        "safe": 310,
+        "name": "莉格露·奈特巴格",
+        "ratio": 0.38
+    },
+    "wakasagihime": {
+        "nsfw": 87,
+        "safe": 413,
+        "name": "若鹭姬",
+        "ratio": 0.174
+    },
+    "usami_sumireko": {
+        "nsfw": 153,
+        "safe": 347,
+        "name": "宇佐见堇子",
+        "ratio": 0.306
+    },
+    "toyosatomimi_no_miko": {
+        "nsfw": 17,
+        "safe": 483,
+        "name": "丰聪耳神子",
+        "ratio": 0.034
+    },
+    "tenkyuu_chimata": {
+        "nsfw": 49,
+        "safe": 451,
+        "name": "天弓千亦",
+        "ratio": 0.098
+    },
+    "sunny_milk": {
+        "nsfw": 141,
+        "safe": 359,
+        "name": "桑尼米尔克",
+        "ratio": 0.282
+    },
+    "reiuji_utsuho": {
+        "nsfw": 51,
+        "safe": 449,
+        "name": "灵乌路空",
+        "ratio": 0.102
+    },
+    "soga_no_tojiko": {
+        "nsfw": 52,
+        "safe": 448,
+        "name": "苏我屠自古",
+        "ratio": 0.104
+    },
+    "shinki": {
+        "nsfw": 125,
+        "safe": 375,
+        "name": "神绮",
+        "ratio": 0.25
+    },
+    "shiki_eiki": {
+        "nsfw": 166,
+        "safe": 334,
+        "name": "四季映姬",
+        "ratio": 0.332
+    },
+    "shameimaru_aya": {
+        "nsfw": 240,
+        "safe": 260,
+        "name": "射命丸文",
+        "ratio": 0.48
+    },
+    "sekibanki": {
+        "nsfw": 212,
+        "safe": 288,
+        "name": "赤蛮奇",
+        "ratio": 0.424
+    },
+    "seiran": {
+        "nsfw": 115,
+        "safe": 385,
+        "name": "清兰",
+        "ratio": 0.23
+    },
+    "saigyouji_yuyuko": {
+        "nsfw": 25,
+        "safe": 475,
+        "name": "西行寺幽幽子",
+        "ratio": 0.05
+    },
+    "rumia": {
+        "nsfw": 27,
+        "safe": 473,
+        "name": "露米娅",
+        "ratio": 0.054
+    },
+    "ringo": {
+        "nsfw": 166,
+        "safe": 334,
+        "name": "铃瑚",
+        "ratio": 0.332
+    },
+    "remilia_scarlet": {
+        "nsfw": 50,
+        "safe": 450,
+        "name": "蕾米莉亚·斯卡蕾特",
+        "ratio": 0.1
+    },
+    "koakuma": {
+        "nsfw": 141,
+        "safe": 359,
+        "name": "小恶魔",
+        "ratio": 0.282
+    },
+    "lunasa_prismriver": {
+        "nsfw": 178,
+        "safe": 322,
+        "name": "露娜萨·普莉兹姆利巴",
+        "ratio": 0.356
+    },
+    "kishin_sagume": {
+        "nsfw": 123,
+        "safe": 377,
+        "name": "稀神探女",
+        "ratio": 0.246
+    },
+    "inubashiri_momiji": {
+        "nsfw": 104,
+        "safe": 396,
+        "name": "犬走椛",
+        "ratio": 0.208
+    },
+    "imaizumi_kagerou": {
+        "nsfw": 171,
+        "safe": 329,
+        "name": "今泉影狼",
+        "ratio": 0.342
+    },
+    "ibuki_suika": {
+        "nsfw": 37,
+        "safe": 463,
+        "name": "伊吹萃香",
+        "ratio": 0.074
+    },
+    "ibaraki_kasen": {
+        "nsfw": 103,
+        "safe": 397,
+        "name": "茨木华扇",
+        "ratio": 0.206
+    },
+    "houraisan_kaguya": {
+        "nsfw": 33,
+        "safe": 467,
+        "name": "蓬莱山辉夜",
+        "ratio": 0.066
+    },
+    "houjuu_nue": {
+        "nsfw": 26,
+        "safe": 474,
+        "name": "封兽鵺",
+        "ratio": 0.052
+    },
+    "hoshiguma_yuugi": {
+        "nsfw": 281,
+        "safe": 219,
+        "name": "星熊勇仪",
+        "ratio": 0.562
+    },
+    "hong_meiling": {
+        "nsfw": 67,
+        "safe": 433,
+        "name": "红美铃",
+        "ratio": 0.134
+    },
+    "hecatia_lapislazuli": {
+        "nsfw": 139,
+        "safe": 361,
+        "name": "赫卡提亚·拉碧斯拉祖利",
+        "ratio": 0.278
+    },
+    "hata_no_kokoro": {
+        "nsfw": 28,
+        "safe": 472,
+        "name": "秦心",
+        "ratio": 0.056
+    },
+    "haniyasushin_keiki": {
+        "nsfw": 86,
+        "safe": 414,
+        "name": "埴安神袿姬",
+        "ratio": 0.172
+    },
+    "hakurei_reimu": {
+        "nsfw": 30,
+        "safe": 470,
+        "name": "博丽灵梦",
+        "ratio": 0.06
+    },
+    "futatsuiwa_mamizou": {
+        "nsfw": 188,
+        "safe": 312,
+        "name": "二岩猯藏",
+        "ratio": 0.376
+    },
+    "fujiwara_no_mokou": {
+        "nsfw": 53,
+        "safe": 447,
+        "name": "藤原妹红",
+        "ratio": 0.106
+    },
+    "flandre_scarlet": {
+        "nsfw": 30,
+        "safe": 470,
+        "name": "芙兰朵露·斯卡蕾特",
+        "ratio": 0.06
+    },
+    "eternity_larva": {
+        "nsfw": 56,
+        "safe": 444,
+        "name": "爱塔妮缇拉尔瓦",
+        "ratio": 0.112
+    },
+    "doremy_sweet": {
+        "nsfw": 69,
+        "safe": 431,
+        "name": "哆来咪·苏伊特",
+        "ratio": 0.138
+    },
+    "daiyousei": {
+        "nsfw": 188,
+        "safe": 312,
+        "name": "大妖精",
+        "ratio": 0.376
+    },
+    "clownpiece": {
+        "nsfw": 150,
+        "safe": 350,
+        "name": "克劳恩皮丝",
+        "ratio": 0.3
+    },
+    "cirno": {
+        "nsfw": 9,
+        "safe": 491,
+        "name": "琪露诺",
+        "ratio": 0.018
+    },
+    "chen": {
+        "nsfw": 66,
+        "safe": 434,
+        "name": "橙",
+        "ratio": 0.132
+    },
+    "alice_margatroid": {
+        "nsfw": 40,
+        "safe": 460,
+        "name": "爱丽丝·玛格特洛依德",
+        "ratio": 0.08
+    },
+    "inaba_tewi": {
+        "nsfw": 187,
+        "safe": 313,
+        "name": "因幡天为",
+        "ratio": 0.374
+    },
+    "hinanawi_tenshi": {
+        "nsfw": 61,
+        "safe": 439,
+        "name": "比那名居天子",
+        "ratio": 0.122
+    },
+    "kasodani_kyouko": {
+        "nsfw": 88,
+        "safe": 412,
+        "name": "幽谷响子",
+        "ratio": 0.176
+    },
+    "kamishirasawa_keine": {
+        "nsfw": 135,
+        "safe": 365,
+        "name": "上白泽慧音",
+        "ratio": 0.27
+    },
+    "kagiyama_hina": {
+        "nsfw": 42,
+        "safe": 458,
+        "name": "键山雏",
+        "ratio": 0.084
+    },
+    "kicchou_yachie": {
+        "nsfw": 70,
+        "safe": 430,
+        "name": "吉吊八千慧",
+        "ratio": 0.14
+    },
+    "kijin_seija": {
+        "nsfw": 88,
+        "safe": 412,
+        "name": "鬼人正邪",
+        "ratio": 0.176
+    },
+    "kaenbyou_rin": {
+        "nsfw": 56,
+        "safe": 444,
+        "name": "火焰猫燐",
+        "ratio": 0.112
+    },
+    "kazami_yuuka": {
+        "nsfw": 127,
+        "safe": 373,
+        "name": "风见幽香",
+        "ratio": 0.254
+    },
+    "junko": {
+        "nsfw": 85,
+        "safe": 415,
+        "name": "纯狐",
+        "ratio": 0.17
+    },
+    "kawashiro_nitori": {
+        "nsfw": 44,
+        "safe": 456,
+        "name": "河城荷取",
+        "ratio": 0.088
+    },
+    "kaku_seiga": {
+        "nsfw": 42,
+        "safe": 458,
+        "name": "霍青娥",
+        "ratio": 0.084
+    },
+    "kirisame_marisa": {
+        "nsfw": 29,
+        "safe": 471,
+        "name": "雾雨魔理沙",
+        "ratio": 0.058
+    },
+    "joutougu_mayumi": {
+        "nsfw": 73,
+        "safe": 427,
+        "name": "杖刀偶磨弓",
+        "ratio": 0.146
+    },
+    "izayoi_sakuya": {
+        "nsfw": 46,
+        "safe": 454,
+        "name": "十六夜咲夜",
+        "ratio": 0.092
+    },
+    "himekaidou_hatate": {
+        "nsfw": 98,
+        "safe": 401,
+        "name": "姬海棠果",
+        "ratio": 0.1963927855711423
+    },
+    "tokiko": {
+        "nsfw": 109,
+        "safe": 355,
+        "name": "朱鹭子",
+        "ratio": 0.2349137931034483
+    },
+    "ushizaki_urumi": {
+        "nsfw": 204,
+        "safe": 240,
+        "name": "牛崎润美",
+        "ratio": 0.4594594594594595
+    },
+    "hijiri_byakuren": {
+        "nsfw": 15,
+        "safe": 390,
+        "name": "圣白莲",
+        "ratio": 0.037037037037037035
+    },
+    "lyrica_prismriver": {
+        "nsfw": 52,
+        "safe": 291,
+        "name": "莉莉卡·普莉兹姆利巴",
+        "ratio": 0.15160349854227406
+    },
+    "teireida_mai": {
+        "nsfw": 44,
+        "safe": 284,
+        "name": "丁礼田舞",
+        "ratio": 0.13414634146341464
+    },
+    "nishida_satono": {
+        "nsfw": 31,
+        "safe": 284,
+        "name": "尔子田里乃",
+        "ratio": 0.09841269841269841
+    },
+    "okazaki_yumemi": {
+        "nsfw": 34,
+        "safe": 251,
+        "name": "冈崎梦美",
+        "ratio": 0.11929824561403508
+    },
+    "hieda_no_akyuu": {
+        "nsfw": 22,
+        "safe": 244,
+        "name": "稗田阿求",
+        "ratio": 0.08270676691729323
+    },
+    "watatsuki_no_toyohime": {
+        "nsfw": 42,
+        "safe": 223,
+        "name": "绵月丰姬",
+        "ratio": 0.15849056603773584
+    },
+    "sakata_nemuno": {
+        "nsfw": 90,
+        "safe": 167,
+        "name": "坂田合欢",
+        "ratio": 0.35019455252918286
+    },
+    "yamashiro_takane": {
+        "nsfw": 40,
+        "safe": 214,
+        "name": "山城高岭",
+        "ratio": 0.15748031496062992
+    },
+    "tsukumo_yatsuhashi": {
+        "nsfw": 43,
+        "safe": 210,
+        "name": "九十九八桥",
+        "ratio": 0.16996047430830039
+    },
+    "gengetsu": {
+        "nsfw": 53,
+        "safe": 194,
+        "name": "幻月",
+        "ratio": 0.2145748987854251
+    },
+    "okunoda_miyoi": {
+        "nsfw": 80,
+        "safe": 162,
+        "name": "奥野田美宵",
+        "ratio": 0.3305785123966942
+    },
+    "reisen": {
+        "nsfw": 39,
+        "safe": 188,
+        "name": "铃仙二号",
+        "ratio": 0.17180616740088106
+    },
+    "elly": {
+        "nsfw": 44,
+        "safe": 165,
+        "name": "艾丽",
+        "ratio": 0.21052631578947367
+    },
+    "komakusa_sannyo": {
+        "nsfw": 26,
+        "safe": 176,
+        "name": "驹草山如",
+        "ratio": 0.12871287128712872
+    },
+    "kana_anaberal": {
+        "nsfw": 14,
+        "safe": 182,
+        "name": "卡娜·安娜贝拉尔",
+        "ratio": 0.07142857142857142
+    },
+    "yumeko": {
+        "nsfw": 29,
+        "safe": 155,
+        "name": "梦子",
+        "ratio": 0.15760869565217392
+    },
+    "mugetsu": {
+        "nsfw": 13,
+        "safe": 152,
+        "name": "梦月",
+        "ratio": 0.07878787878787878
+    },
+    "mai": {
+        "nsfw": 33,
+        "safe": 126,
+        "name": "舞",
+        "ratio": 0.20754716981132076
+    },
+    "kitashirakawa_chiyuri": {
+        "nsfw": 21,
+        "safe": 130,
+        "name": "北白河千百合",
+        "ratio": 0.1390728476821192
+    },
+    "star_sapphire": {
+        "nsfw": 17,
+        "safe": 120,
+        "name": "斯塔萨菲雅",
+        "ratio": 0.12408759124087591
+    },
+    "kurumi": {
+        "nsfw": 16,
+        "safe": 117,
+        "name": "胡桃",
+        "ratio": 0.12030075187969924
+    },
+    "ebisu_eika": {
+        "nsfw": 25,
+        "safe": 107,
+        "name": "戎璎花",
+        "ratio": 0.1893939393939394
+    },
+    "watatsuki_no_yorihime": {
+        "nsfw": 76,
+        "safe": 54,
+        "name": "绵月依姬",
+        "ratio": 0.5846153846153846
+    },
+    "tamatsukuri_misumaru": {
+        "nsfw": 7,
+        "safe": 118,
+        "name": "玉造魅须丸",
+        "ratio": 0.056
+    },
+    "yuki": {
+        "nsfw": 11,
+        "safe": 101,
+        "name": "雪",
+        "ratio": 0.09821428571428571
+    },
+    "elis": {
+        "nsfw": 16,
+        "safe": 92,
+        "name": "依莉斯",
+        "ratio": 0.14814814814814814
+    },
+    "luize": {
+        "nsfw": 11,
+        "safe": 79,
+        "name": "露易兹",
+        "ratio": 0.12222222222222222
+    },
+    "konngara": {
+        "nsfw": 10,
+        "safe": 79,
+        "name": "矜羯罗",
+        "ratio": 0.11235955056179775
+    },
+    "tsukumo_benben": {
+        "nsfw": 8,
+        "safe": 76,
+        "name": "九十九弁弁",
+        "ratio": 0.09523809523809523
+    },
+    "kotohime": {
+        "nsfw": 6,
+        "safe": 72,
+        "name": "小兔姬",
+        "ratio": 0.07692307692307693
+    },
+    "meira": {
+        "nsfw": 12,
+        "safe": 65,
+        "name": "明罗",
+        "ratio": 0.15584415584415584
+    },
+    "asakura_rikako": {
+        "nsfw": 10,
+        "safe": 57,
+        "name": "朝仓理香子",
+        "ratio": 0.14925373134328357
+    },
+    "maribel_hearn": {
+        "nsfw": 6,
+        "safe": 57,
+        "name": "玛艾露贝莉·赫恩",
+        "ratio": 0.09523809523809523
+    },
+    "sara": {
+        "nsfw": 10,
+        "safe": 48,
+        "name": "萨拉",
+        "ratio": 0.1724137931034483
+    },
+    "orange": {
+        "nsfw": 6,
+        "safe": 42,
+        "name": "奥莲姬",
+        "ratio": 0.125
+    },
+    "sariel": {
+        "nsfw": 4,
+        "safe": 41,
+        "name": "萨丽爱尔",
+        "ratio": 0.08888888888888889
+    },
+    "horikawa_raiko": {
+        "nsfw": 8,
+        "safe": 37,
+        "name": "堀川雷鼓",
+        "ratio": 0.17777777777777778
+    },
+    "iizunamaru_megumu": {
+        "nsfw": 3,
+        "safe": 42,
+        "name": "饭纲丸龙",
+        "ratio": 0.06666666666666667
+    },
+    "rika": {
+        "nsfw": 5,
+        "safe": 39,
+        "name": "里香",
+        "ratio": 0.11363636363636363
+    },
+    "kurokoma_saki": {
+        "nsfw": 2,
+        "safe": 40,
+        "name": "骊驹早鬼",
+        "ratio": 0.047619047619047616
+    },
+    "ruukoto": {
+        "nsfw": 5,
+        "safe": 35,
+        "name": "留琴",
+        "ratio": 0.125
+    },
+    "merlin_prismriver": {
+        "nsfw": 7,
+        "safe": 30,
+        "name": "梅露兰·普莉兹姆利巴",
+        "ratio": 0.1891891891891892
+    },
+    "himemushi_momoyo": {
+        "nsfw": 5,
+        "safe": 28,
+        "name": "姬虫百百世",
+        "ratio": 0.15151515151515152
+    },
+    "toutetsu_yuuma": {
+        "nsfw": 2,
+        "safe": 18,
+        "name": "饕餮尤魔",
+        "ratio": 0.1
+    },
+    "yatadera_narumi": {
+        "nsfw": 1,
+        "safe": 10,
+        "name": "矢田寺成美",
+        "ratio": 0.09090909090909091
+    },
+    "satsuki_rin": {
+        "nsfw": 1,
+        "safe": 9,
+        "name": "冴月麟",
+        "ratio": 0.1
+    }
+}
