@@ -1,0 +1,95 @@
+PS C:\Users\ls_ho\bxtz> py .\vit_train.py
+---------------------- 开始 import ----------------------
+---------------------- import 完成 ----------------------
+---------------------- 超参数设置 ----------------------
+---------------------- 数据集加载和预处理 ----------------------
+加载本地图片数据集：data/touhou_split
+Resolving data files: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 96322/96322 [00:03<00:00, 24593.39it/s]
+Resolving data files: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12037/12037 [00:00<00:00, 26871.34it/s]
+Resolving data files: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12108/12108 [00:00<00:00, 17789.19it/s]
+Downloading data: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 96322/96322 [00:03<00:00, 25971.67files/s]
+Downloading data: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12037/12037 [00:00<00:00, 26975.65files/s]
+Downloading data: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12108/12108 [00:00<00:00, 29401.37files/s]
+Generating train split: 96322 examples [00:04, 20667.50 examples/s]
+Generating validation split: 12037 examples [00:00, 20330.17 examples/s]
+Generating test split: 12108 examples [00:00, 17487.65 examples/s]
+获取数据集的类别标签
+数据集包含 136 个类别：{'aki_minoriko': 0, 'aki_shizuha': 1, 'alice_margatroid': 2, 'chen': 3, 'cirno': 4, 'clownpiece': 5, 'daiyousei': 6, 'doremy_sweet': 7, 'ebisu_eika': 8, 'elis': 9, 'eternity_larva': 10, 'flandre_scarlet': 11, 'fujiwara_no_mokou': 12, 'futatsuiwa_mamizou': 13, 'hakurei_reimu': 14, 'haniyasushin_keiki': 15, 'hata_no_kokoro': 16, 'hecatia_lapislazuli': 17, 'hieda_no_akyuu': 18, 'hijiri_byakuren': 19, 'himekaidou_hatate': 20, 'himemushi_momoyo': 21, 'hinanawi_tenshi': 22, 'hong_meiling': 23, 'horikawa_raiko': 24, 'hoshiguma_yuugi': 25, 'houjuu_nue': 26, 'houraisan_kaguya': 27, 'ibaraki_kasen': 28, 'ibuki_suika': 29, 'iizunamaru_megumu': 30, 'imaizumi_kagerou': 31, 'inaba_tewi': 32, 'inubashiri_momiji': 33, 'izayoi_sakuya': 34, 'joutougu_mayumi': 35, 'junko': 36, 'kaenbyou_rin': 37, 'kagiyama_hina': 38, 'kaku_seiga': 39, 'kamishirasawa_keine': 40, 'kasodani_kyouko': 41, 'kawashiro_nitori': 42, 'kazami_yuuka': 43, 'kicchou_yachie': 44, 'kijin_seija': 45, 'kirisame_marisa': 46, 'kishin_sagume': 47, 'kisume': 48, 'koakuma': 49, 'kochiya_sanae': 50, 'komakusa_sannyo': 51, 'komano_aunn': 52, 'komeiji_koishi': 53, 'komeiji_satori': 54, 'konngara': 55, 'konpaku_youmu': 56, 'kudamaki_tsukasa': 57, 'kumoi_ichirin': 58, 'kurodani_yamame': 59, 'kurokoma_saki': 60, 'letty_whiterock': 61, 'lily_white': 62, 'luna_child': 63, 'lunasa_prismriver': 64, 'lyrica_prismriver': 65, 'maribel_hearn': 66, 'matara_okina': 67, 'medicine_melancholy': 68, 'meira': 69, 'merlin_prismriver': 70, 'mima': 71, 'mitsugashira_enoko': 72, 'miyako_yoshika': 73, 'mizuhashi_parsee': 74, 'mononobe_no_futo': 75, 'morichika_rinnosuke': 76, 'moriya_suwako': 77, 'motoori_kosuzu': 78, 'murasa_minamitsu': 79, 'mystia_lorelei': 80, 'nagae_iku': 81, 'nazrin': 82, 'nippaku_zanmu': 83, 'nishida_satono': 84, 'niwatari_kutaka': 85, 'okunoda_miyoi': 86, 'onozuka_komachi': 87, 'patchouli_knowledge': 88, 'reisen': 89, 'reisen_udongein_inaba': 90, 'reiuji_utsuho': 91, 'remilia_scarlet': 92, 'rika': 93, 'ringo': 94, 'rumia': 95, 'saigyouji_yuyuko': 96, 'sakata_nemuno': 97, 'sariel': 98, 'satsuki_rin': 99, 'seiran': 100, 'sekibanki': 101, 'shameimaru_aya': 102, 'shiki_eiki': 103, 'soga_no_tojiko': 104, 'son_biten': 105, 'star_sapphire': 106, 'sukuna_shinmyoumaru': 107, 'sunny_milk': 108, 'tamatsukuri_misumaru': 109, 'tatara_kogasa': 110, 'teireida_mai': 111, 'tenkajin_chiyari': 112, 'tenkyuu_chimata': 113, 'tokiko': 114, 'toramaru_shou': 115, 'toutetsu_yuuma': 116, 'toyosatomimi_no_miko': 117, 'tsukumo_benben': 118, 'tsukumo_yatsuhashi': 119, 'usami_renko': 120, 'usami_sumireko': 121, 'ushizaki_urumi': 122, 'wakasagihime': 123, 'watatsuki_no_toyohime': 124, 'watatsuki_no_yorihime': 125, 'wriggle_nightbug': 126, 'yagokoro_eirin': 127, 'yakumo_ran': 128, 'yakumo_yukari': 129, 'yamashiro_takane': 130, 'yasaka_kanako': 131, 'yatadera_narumi': 132, 'yomotsu_hisami': 133, 'yorigami_jyoon': 134, 'yorigami_shion': 135}
+加载 ViT 的图像处理器，用于将图像转换为模型所需的输入格式
+定义图像预处理流程
+对训练集和验证集应用预处理函数
+Map:   0%|                                                                                                                                                                     | 0/96322 [00:00<?, ? examples/s]It looks like you are trying to rescale already rescaled images. If the input images have pixel values between 0 and 1, set `do_rescale=False` to avoid rescaling them again.
+Map:   4%|██████▎                                                                                                                                                 | 4000/96322 [03:47<1:18:43, 19.54 examples/s]C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py:1056: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Map:  27%|████████████████████████████████████████▊                                                                                                              | 26000/96322 [45:45<2:15:27,  8.65 examples/s]C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\TiffImagePlugin.py:900: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0.
+  warnings.warn(str(msg))
+Map:  61%|████████████████████████████████████████████████████████████████████████████████████████████▍                                                          | 59000/96322 [1:44:33<42:56, 14.48 examples/s]C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py:3368: DecompressionBombWarning: Image size (101562040 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+Map:  73%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                        | 70000/96322 [2:16:44<1:39:12,  4.42 examples/s]Map:  81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 78000/96322 [2:30:08<41:31,  7.35 examples/s]C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py:3368: DecompressionBombWarning: Image size (100799364 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 96322/96322 [2:54:03<00:00,  9.22 examples/s]
+Map:  91%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉             | 11000/12037 [22:36<02:07,  8.11 examples/s]
+Traceback (most recent call last):
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\ImageFile.py", line 273, in load
+    s = read(self.decodermaxblock)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\PngImagePlugin.py", line 962, in load_read
+    cid, pos, length = self.png.read()
+                       ^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\PngImagePlugin.py", line 172, in read
+    length = i32(s)
+             ^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\_binary.py", line 95, in i32be
+    return unpack_from(">I", c, o)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+struct.error: unpack_from requires a buffer of at least 4 bytes for unpacking 4 bytes at offset 0 (actual buffer size is 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ls_ho\bxtz\vit_train.py", line 117, in <module>
+    processed_val_dataset = dataset["validation"].map(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\arrow_dataset.py", line 3074, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\arrow_dataset.py", line 3516, in _map_single
+    for i, batch in iter_outputs(shard_iterable):
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\arrow_dataset.py", line 3466, in iter_outputs
+    yield i, apply_function(example, i, offset=offset)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\arrow_dataset.py", line 3389, in apply_function
+    processed_inputs = function(*fn_args, *additional_args, **fn_kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\bxtz\vit_train.py", line 102, in val_preprocess_function
+    images = examples["image"]
+             ~~~~~~~~^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\formatting\formatting.py", line 282, in __getitem__
+    value = self.format(key)
+            ^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\formatting\formatting.py", line 385, in format
+    return self.formatter.format_column(self.pa_table.select([key]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\formatting\formatting.py", line 465, in format_column
+    column = self.python_features_decoder.decode_column(column, pa_table.column_names[0])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\formatting\formatting.py", line 228, in decode_column
+    return self.features.decode_column(column, column_name) if self.features else column
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\features\features.py", line 2114, in decode_column
+    [decode_nested_example(self[column_name], value) if value is not None else None for value in column]
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\features\features.py", line 1407, in decode_nested_example
+    return schema.decode_example(obj, token_per_repo_id=token_per_repo_id) if obj is not None else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\datasets\features\image.py", line 187, in decode_example
+    image.load()  # to avoid "Too many open files" errors
+    ^^^^^^^^^^^^
+  File "C:\Users\ls_ho\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\ImageFile.py", line 280, in load
+    raise OSError(msg) from e
+OSError: image file is truncated
+PS C:\Users\ls_ho\bxtz>
