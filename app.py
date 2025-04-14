@@ -282,7 +282,18 @@ if __name__ == "__main__":
             db.create_all()
 
         print("Starting camera...")
-        source = 1  # 0: 使用电脑自带摄像头，1: 使用外接摄像头
+        print("请选择摄像头源：")
+        print("0: 使用电脑自带摄像头")
+        print("1: 使用外接摄像头")
+        while True:
+            try:
+                source = int(input("请输入摄像头源(0 或 1):"))
+                if source == 0 or source == 1:
+                    break
+                else:
+                    print("无效的选择，请输入 0 或 1")
+            except ValueError:
+                print("请输入有效的数字")
         camera = ThreadedCamera(camera_id=source)
         camera.start()
 
